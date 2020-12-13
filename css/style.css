@@ -41,6 +41,10 @@ nav li a:hover{
 #intro {
     font-size: 36px;
 }
+#welcome{
+    font-size: 18px;
+    font-style:italic ;
+}
 img.centered { 
     display: block; 
     margin-left: auto; 

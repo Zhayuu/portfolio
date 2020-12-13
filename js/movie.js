@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+     makeRequest();
     console.log("ready");
     $("#btn").click(
         function () {

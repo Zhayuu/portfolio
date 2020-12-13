@@ -24,7 +24,7 @@ function makeRequest() {
                 if (Array.isArray(myArray)) {
                     var tbl = $("<table/>").attr("id", "mytable");
                     $("#result").append(tbl);
-                    var th = "<tr><th></th><th>Major</th><th>Type</th><th>Year Conferred</th></tr>";
+                    var th = "<tr><th>Movie</th><th>Director</th><th>Stars</th><th>Type</th></tr>";
                     $("#mytable").append(th);
                     myArray.forEach((element) => {
                         console.log(element);

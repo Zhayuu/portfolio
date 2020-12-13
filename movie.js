@@ -47,7 +47,7 @@ function makeRequest() {
     };
 
 
-    httpRequest.open('GET', 'myCollegeDegrees.json', true);
+    httpRequest.open('GET', 'movies.json', true);
     console.log("open done");
     httpRequest.send();
     console.log("send done");

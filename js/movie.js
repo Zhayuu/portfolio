@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     console.log("ready");
     $("#btn").click(
         function () {
@@ -30,10 +31,9 @@ function makeRequest() {
                         console.log(element);
                         var td1 = "<tr><td>" + element.movie.title + "</td>";
                         var td2 = "<td>" + element.movie.director+ "</td>";
-                        var td3 = "<td>" + element.movie.star + "</td>";
+                        var td3 = "<td>" + element.movie.stars + "</td>";
                         var td4 = "<td>" + element.movie.type + "</td></tr>";
                         $('#mytable').append(td1 + td2 + td3 + td4);
-
                     });
 
                 }

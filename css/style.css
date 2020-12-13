@@ -1,40 +1,40 @@
 body{
-    
     background-color: #BFD8D2;
     margin:0 auto;
     color:#4e5761;
     font-size: 18px;
-    Font-family: Arial, Helvetica, sans-serif;
+    Font-family: Georgia,Arial, Helvetica, sans-serif;
 }
 
 header{
    margin-bottom: 10%;
 }
-ul {
+nav  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: fixed;
     top:0;
+    overflow: hidden;
     width: 100%;
     background-color:white;
 }
-li {
+nav li {
     float: right; 
-    text-align: center;
+    
+    
 }    
-li a {
+nav li a {
     color: black;
     display: block;
-    padding: 10px;
-    width: 100%;
+    padding: 10px 16px;
     text-decoration: none;
+    text-align: center;
 }
-li a:hover{
+nav li a:hover{
     background-color:whitesmoke;
 }
 .active {
-   
     background-color:#DCB239;
 }
 /* // #DCB239 #FEDCD2 DF744A*/

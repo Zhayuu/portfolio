@@ -6,3 +6,9 @@ table {
  margin-right: auto; width: 80%; 
     border-collapse: collapse;
 }
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}

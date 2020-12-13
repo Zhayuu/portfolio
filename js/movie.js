@@ -1,13 +1,5 @@
 $(document).ready(function () {
-    
-    console.log("ready");
-    $("#btn").click(
-        function () {
-            console.log("button clicked");
-            makeRequest();
-        }
-    );
-
+    makeRequest();
 });
 
 function makeRequest() {

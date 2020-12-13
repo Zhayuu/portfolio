@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Zeyu</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+</head>
+<script src="index.js"></script>
+
+
+<header>
+    <nav>
+      <ul>  
+        <li>
+          <a class="active" href="home.html">HOME</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="interest.html">Interest</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="project.html">Project</a>
+        </li>
+        <li>
+        <a href="resume.html">Resume</a>
+      </li> 
+      </ul>
+    </nav>
+  </header>
+
+<form name="form" id="form" action=" " method="post"
+    onsubmit="return validateForm();">
+    <p>First name:<br/>
+        <input type="text" name="firstName" id="firstName" required autofocus>
+    </p>
+    <p>Last name:<br/>
+        <input type="text" name="lastName" id="lastName" required>
+    </p>
+    <p>Your email:<br>
+        <input type="text" name="email" id="email" required>
+    </p>
+    <p>Message:<br>
+        <textarea rows="5" cols="50" name="taComments"></textarea></p>
+    <p><input type="submit" id="submit" value="submit"></p>
+</form>
+</html>

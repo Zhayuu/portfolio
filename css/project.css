@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 30% 70%;
+    background: whitesmoke;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+article{
+    margin-left:10%;
+    margin-right:10%;
+    text-align:left;
+
+}
+
+

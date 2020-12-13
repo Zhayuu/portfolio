@@ -1,0 +1,32 @@
+.grid-item :hover{
+    border: 3px solid #DF744A;
+ }
+ img,video {
+     width:95%;
+     height:auto;
+     border: 3px solid white;
+ } 
+ figure {
+    width:95%;
+    padding: 0%;
+    margin: 0;
+    height:auto;
+ }
+@media only screen and (max-width: 768px) {
+    /* For small device: */
+    .grid-container {
+        display: grid;
+        margin-left: 10%;
+        margin-right: 10%;
+        grid-template-columns: 50% 50%;
+      }
+  }
+ @media only screen and (min-width: 768px) {
+    /* For medium device: */
+    .grid-container {
+        display: grid;
+        margin-left: 10%;
+        margin-right: 10%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+      }
+  }

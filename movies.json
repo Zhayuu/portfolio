@@ -1,0 +1,27 @@
+{
+	"movies": [{
+			"movie": {
+				"title": "Shutter Island",
+				"director": "Martin Scorsese",
+				"stars": "Martin Scorsese",
+				"type": "Mystery/Thriller"
+			}
+		},
+		{
+			"movie": {
+				"title": "Fight Club",
+				"director": "David Fincher",
+				"stars": "Brad Pitt, Edward Norton",
+				"type": "Drama"
+			}
+		}, {
+			"movie": {
+				"title": "Joker",
+				"director": "Todd Phillips",
+				"stars": "Joaquin Phoenix",
+				"type": "Crime, Drama, Thriller"
+			}
+
+		}
+	]
+}

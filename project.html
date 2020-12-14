@@ -43,7 +43,7 @@
     <a href="https://github.com/tianqingyk/Weekday"> 
         <img v-on:mouseover="mouseover"
     v-on:mouseleave="mouseleave"
-    v-bind:src="img1" >
+    v-bind:src="img1" alt="project">
     </a>
 </div>
 <div class="grid-item">
@@ -61,11 +61,15 @@
 <script>
     var app = new Vue({
     el: '#app', 
-    data: {
+    data:function() {
+      return{
         img1: './img/logocopy.jpg',
        name:"Weekday",
        description:"The main purpose of developing this project is to provide users with a more convenient project management system. Mainly through the following directions: the communication between users is more convenient, and the projects that other users participate in can be browsed through the system. The main user of this project is the project team that is developing the project, and can also be used for personal plan management. "
+      }
+       
     },
+
     methods: {
         mouseover: function(){
         this.img1 = './img/WeChat Image_20201213112440.png'

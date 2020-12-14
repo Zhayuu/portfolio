@@ -83,7 +83,10 @@ article {
     margin-right: auto; 
     width: 80%; 
 }
-    
+.icon {
+    width: 25px;
+    height: auto;
+}    
 /* button{
         background-color:#DF744A;
         border: none;
